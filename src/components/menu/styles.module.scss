@@ -1,0 +1,21 @@
+@use "src/asset/styles/mixins";
+@use "src/asset/styles/var";
+
+.menu {
+  display: flex;
+  gap: 44px;
+  padding: 20px 0;
+
+  &__elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    margin: 0 auto;
+
+    .el a {
+      @include mixins.body01;
+      color: var.$text-color-prime;
+      text-decoration: none;
+    }
+  }
+}

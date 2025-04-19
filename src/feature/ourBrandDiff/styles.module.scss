@@ -1,0 +1,60 @@
+@use "src/asset/styles/mixins";
+@use "src/asset/styles/var";
+
+.ourBrandDiff {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+
+  &__headline {
+    color: var.$text-color-three;
+    @include mixins.H3;
+    text-align: center;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+
+    .card {
+      width: calc((100% / 4) - (60px * 3 / 4));
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      gap: 16px;
+      transition: .3s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var.$background-color-second;
+        transform: scale(1.05);
+      }
+
+      &__icon {
+        width: 24px;
+        height: 24px;
+        transition: .3s;
+      }
+
+      &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .title {
+          color: var.$text-color-three;
+          @include mixins.H4;
+          transition: .3s;
+        }
+
+        .description {
+          color: var.$text-color-three;
+          @include mixins.body01;
+          transition: .3s;
+        }
+      }
+    }
+  }
+}

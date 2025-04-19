@@ -1,0 +1,48 @@
+@use "src/asset/styles/mixins";
+@use "src/asset/styles/var";
+
+.banner {
+  padding: 60px 80px;
+
+  &__wrap {
+    background-color: var.$background-color-prime;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: start;
+      justify-content: left;
+      width: 100%;
+      max-width: 515px;
+
+      .headline {
+        @include mixins.H2;
+        color: var.$text-color-second;
+      }
+
+    }
+
+    .description {
+      color: var.$text-color-second;
+      @include mixins.H5;
+      width: 100%;
+      max-width: 600px;
+    }
+  }
+
+  .previewImage {
+    height: 100%;
+    max-height: 584px;
+    object-fit: cover;
+  }
+}
