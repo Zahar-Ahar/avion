@@ -1,0 +1,135 @@
+[
+  {
+    "id": "1",
+    "name": "Product 1",
+    "price": 586,
+    "description": "Description for product 1.",
+    "category": "Furniture",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "64cm",
+      "width": "66cm",
+      "depth": "54cm"
+    },
+    "available": true,
+    "stock": 1,
+    "rating": 4.8,
+    "reviews": 43,
+    "discount": 15,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "price": 717,
+    "description": "Description for product 2.",
+    "category": "Light fittings",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "84cm",
+      "width": "13cm",
+      "depth": "45cm"
+    },
+    "available": false,
+    "stock": 5,
+    "rating": 4.8,
+    "reviews": 185,
+    "discount": 15,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "price": 244,
+    "description": "Description for product 3.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "93cm",
+      "width": "84cm",
+      "depth": "46cm"
+    },
+    "available": false,
+    "stock": 4,
+    "rating": 4.5,
+    "reviews": 88,
+    "discount": 20,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "4",
+    "name": "Product 4",
+    "price": 614,
+    "description": "Description for product 4.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "77cm",
+      "width": "30cm",
+      "depth": "100cm"
+    },
+    "available": false,
+    "stock": 17,
+    "rating": 3.6,
+    "reviews": 200,
+    "discount": 0,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "5",
+    "name": "Product 5",
+    "price": 390,
+    "description": "Description for product 5.",
+    "category": "Light fittings",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "38cm",
+      "width": "42cm",
+      "depth": "63cm"
+    },
+    "available": true,
+    "stock": 6,
+    "rating": 3.8,
+    "reviews": 156,
+    "discount": 10,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "6",
+    "name": "Product 6",
+    "price": 776,
+    "description": "Description for product 6.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "87cm",
+      "width": "100cm",
+      "depth": "15cm"
+    },
+    "available": false,
+    "stock": 10,
+    "rating": 3.8,
+    "reviews": 135,
+    "discount": 20,
+    "image": "  https://placehold.co/600x400@2x.png"
+  },
+  {
+    "id": "7",
+    "name": "Product 7",
+    "price": 415,
+    "description": "Description for product 7.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "22cm",
+      "width": "78cm",
+      "depth": "60cm"
+    },
+    "available": false,
+    "stock": 2,
+    "rating": 3.7,
+    "reviews": 51,
+    "discount": 15,
+    "image": "  https://placehold.co/600x400@2x.png"
+  }
+]

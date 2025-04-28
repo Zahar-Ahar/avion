@@ -16,7 +16,8 @@
   }
 
   &.signup {
-    background-color: var.$button-color-prime-opacity;
+    background-color: var.$button-color-second;
+    color: var.$text-color-second;
   }
 
   &.white {

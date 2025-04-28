@@ -1,0 +1,38 @@
+@use "src/asset/styles/mixins";
+@use "src/asset/styles/var";
+
+.shoppingBasketSubtotal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 28px 0;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+    .subtotal {
+
+      .title {
+        @include mixins.H4;
+        color: var.$text-color-prime;
+      }
+
+      .total {
+        @include mixins.H3;
+        color: var.$text-color-three;
+      }
+    }
+
+    .description {
+      @include mixins.body02;
+      color: var.$text-color-prime;
+    }
+  }
+
+  .button {
+    display: flex;
+    justify-content: end;
+  }
+}

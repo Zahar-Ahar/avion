@@ -1,0 +1,51 @@
+@use "src/asset/styles/mixins";
+@use "src/asset/styles/var";
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 300px;
+  flex-shrink: 0;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    width: 100%;
+
+    .title {
+      color: var.$text-color-three;
+      @include mixins.body01;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .label {
+        color: var.$text-color-three;
+        @include mixins.body01;
+        display: flex;
+        gap: 8px;
+        width: 100%;
+      }
+    }
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+  }
+
+  &__designer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+  }
+}

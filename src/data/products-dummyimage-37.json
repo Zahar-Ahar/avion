@@ -1,0 +1,705 @@
+[
+  {
+    "id": "1",
+    "name": "Product 1",
+    "price": 193,
+    "description": "Description for Product 1.",
+    "category": "Light fittings",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "94cm",
+      "width": "34cm",
+      "depth": "20cm"
+    },
+    "available": false,
+    "stock": 5,
+    "rating": 3.2,
+    "reviews": 28,
+    "discount": 15,
+    "image": "https://dummyimage.com/401x371/eeeeee/333333&text=Product+1"
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "price": 427,
+    "description": "Description for Product 2.",
+    "category": "Homeware",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "96cm",
+      "width": "65cm",
+      "depth": "33cm"
+    },
+    "available": false,
+    "stock": 11,
+    "rating": 4.1,
+    "reviews": 99,
+    "discount": 15,
+    "image": "https://dummyimage.com/348x304/eeeeee/333333&text=Product+2"
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "price": 764,
+    "description": "Description for Product 3.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "50cm",
+      "width": "82cm",
+      "depth": "72cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 4.6,
+    "reviews": 173,
+    "discount": 10,
+    "image": "https://dummyimage.com/362x367/eeeeee/333333&text=Product+3"
+  },
+  {
+    "id": "4",
+    "name": "Product 4",
+    "price": 966,
+    "description": "Description for Product 4.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "52cm",
+      "width": "19cm",
+      "depth": "41cm"
+    },
+    "available": true,
+    "stock": 7,
+    "rating": 4.1,
+    "reviews": 39,
+    "discount": 20,
+    "image": "https://dummyimage.com/439x448/eeeeee/333333&text=Product+4"
+  },
+  {
+    "id": "5",
+    "name": "Product 5",
+    "price": 783,
+    "description": "Description for Product 5.",
+    "category": "Homeware",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "30cm",
+      "width": "94cm",
+      "depth": "23cm"
+    },
+    "available": true,
+    "stock": 11,
+    "rating": 3.8,
+    "reviews": 17,
+    "discount": 10,
+    "image": "https://dummyimage.com/322x316/eeeeee/333333&text=Product+5"
+  },
+  {
+    "id": "6",
+    "name": "Product 6",
+    "price": 377,
+    "description": "Description for Product 6.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "76cm",
+      "width": "32cm",
+      "depth": "23cm"
+    },
+    "available": true,
+    "stock": 1,
+    "rating": 3.2,
+    "reviews": 157,
+    "discount": 0,
+    "image": "https://dummyimage.com/429x488/eeeeee/333333&text=Product+6"
+  },
+  {
+    "id": "7",
+    "name": "Product 7",
+    "price": 909,
+    "description": "Description for Product 7.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "64cm",
+      "width": "35cm",
+      "depth": "15cm"
+    },
+    "available": true,
+    "stock": 16,
+    "rating": 4.8,
+    "reviews": 116,
+    "discount": 0,
+    "image": "https://dummyimage.com/481x306/eeeeee/333333&text=Product+7"
+  },
+  {
+    "id": "8",
+    "name": "Product 8",
+    "price": 420,
+    "description": "Description for Product 8.",
+    "category": "Light fittings",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "107cm",
+      "width": "36cm",
+      "depth": "64cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 4.4,
+    "reviews": 83,
+    "discount": 20,
+    "image": "https://dummyimage.com/300x374/eeeeee/333333&text=Product+8"
+  },
+  {
+    "id": "9",
+    "name": "Product 9",
+    "price": 519,
+    "description": "Description for Product 9.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "111cm",
+      "width": "56cm",
+      "depth": "76cm"
+    },
+    "available": true,
+    "stock": 13,
+    "rating": 4.1,
+    "reviews": 75,
+    "discount": 0,
+    "image": "https://dummyimage.com/483x394/eeeeee/333333&text=Product+9"
+  },
+  {
+    "id": "10",
+    "name": "Product 10",
+    "price": 991,
+    "description": "Description for Product 10.",
+    "category": "Homeware",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "55cm",
+      "width": "33cm",
+      "depth": "100cm"
+    },
+    "available": true,
+    "stock": 4,
+    "rating": 3.9,
+    "reviews": 49,
+    "discount": 20,
+    "image": "https://dummyimage.com/334x474/eeeeee/333333&text=Product+10"
+  },
+  {
+    "id": "11",
+    "name": "Product 11",
+    "price": 755,
+    "description": "Description for Product 11.",
+    "category": "Homeware",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "88cm",
+      "width": "25cm",
+      "depth": "22cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 4.2,
+    "reviews": 81,
+    "discount": 10,
+    "image": "https://dummyimage.com/315x390/eeeeee/333333&text=Product+11"
+  },
+  {
+    "id": "12",
+    "name": "Product 12",
+    "price": 629,
+    "description": "Description for Product 12.",
+    "category": "Furniture",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "57cm",
+      "width": "95cm",
+      "depth": "61cm"
+    },
+    "available": false,
+    "stock": 0,
+    "rating": 3.1,
+    "reviews": 187,
+    "discount": 15,
+    "image": "https://dummyimage.com/414x489/eeeeee/333333&text=Product+12"
+  },
+  {
+    "id": "13",
+    "name": "Product 13",
+    "price": 603,
+    "description": "Description for Product 13.",
+    "category": "Light fittings",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "80cm",
+      "width": "29cm",
+      "depth": "29cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 4.1,
+    "reviews": 92,
+    "discount": 20,
+    "image": "https://dummyimage.com/418x392/eeeeee/333333&text=Product+13"
+  },
+  {
+    "id": "14",
+    "name": "Product 14",
+    "price": 615,
+    "description": "Description for Product 14.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "117cm",
+      "width": "73cm",
+      "depth": "77cm"
+    },
+    "available": true,
+    "stock": 1,
+    "rating": 3.4,
+    "reviews": 137,
+    "discount": 10,
+    "image": "https://dummyimage.com/308x352/eeeeee/333333&text=Product+14"
+  },
+  {
+    "id": "15",
+    "name": "Product 15",
+    "price": 622,
+    "description": "Description for Product 15.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "70cm",
+      "width": "51cm",
+      "depth": "48cm"
+    },
+    "available": false,
+    "stock": 13,
+    "rating": 3.1,
+    "reviews": 86,
+    "discount": 0,
+    "image": "https://dummyimage.com/368x328/eeeeee/333333&text=Product+15"
+  },
+  {
+    "id": "16",
+    "name": "Product 16",
+    "price": 620,
+    "description": "Description for Product 16.",
+    "category": "Furniture",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "114cm",
+      "width": "50cm",
+      "depth": "27cm"
+    },
+    "available": true,
+    "stock": 15,
+    "rating": 3.8,
+    "reviews": 29,
+    "discount": 15,
+    "image": "https://dummyimage.com/477x408/eeeeee/333333&text=Product+16"
+  },
+  {
+    "id": "17",
+    "name": "Product 17",
+    "price": 630,
+    "description": "Description for Product 17.",
+    "category": "Furniture",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "86cm",
+      "width": "10cm",
+      "depth": "56cm"
+    },
+    "available": true,
+    "stock": 11,
+    "rating": 3.3,
+    "reviews": 145,
+    "discount": 20,
+    "image": "https://dummyimage.com/435x340/eeeeee/333333&text=Product+17"
+  },
+  {
+    "id": "18",
+    "name": "Product 18",
+    "price": 456,
+    "description": "Description for Product 18.",
+    "category": "Light fittings",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "109cm",
+      "width": "80cm",
+      "depth": "94cm"
+    },
+    "available": true,
+    "stock": 0,
+    "rating": 3.0,
+    "reviews": 24,
+    "discount": 0,
+    "image": "https://dummyimage.com/497x309/eeeeee/333333&text=Product+18"
+  },
+  {
+    "id": "19",
+    "name": "Product 19",
+    "price": 878,
+    "description": "Description for Product 19.",
+    "category": "Furniture",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "89cm",
+      "width": "91cm",
+      "depth": "25cm"
+    },
+    "available": true,
+    "stock": 4,
+    "rating": 4.6,
+    "reviews": 166,
+    "discount": 20,
+    "image": "https://dummyimage.com/398x418/eeeeee/333333&text=Product+19"
+  },
+  {
+    "id": "20",
+    "name": "Product 20",
+    "price": 778,
+    "description": "Description for Product 20.",
+    "category": "Light fittings",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "107cm",
+      "width": "18cm",
+      "depth": "26cm"
+    },
+    "available": true,
+    "stock": 6,
+    "rating": 4.3,
+    "reviews": 8,
+    "discount": 0,
+    "image": "https://dummyimage.com/444x356/eeeeee/333333&text=Product+20"
+  },
+  {
+    "id": "21",
+    "name": "Product 21",
+    "price": 747,
+    "description": "Description for Product 21.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "21cm",
+      "width": "21cm",
+      "depth": "26cm"
+    },
+    "available": false,
+    "stock": 3,
+    "rating": 4.5,
+    "reviews": 83,
+    "discount": 15,
+    "image": "https://dummyimage.com/390x385/eeeeee/333333&text=Product+21"
+  },
+  {
+    "id": "22",
+    "name": "Product 22",
+    "price": 566,
+    "description": "Description for Product 22.",
+    "category": "Furniture",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "114cm",
+      "width": "31cm",
+      "depth": "66cm"
+    },
+    "available": true,
+    "stock": 9,
+    "rating": 3.9,
+    "reviews": 163,
+    "discount": 0,
+    "image": "https://dummyimage.com/317x390/eeeeee/333333&text=Product+22"
+  },
+  {
+    "id": "23",
+    "name": "Product 23",
+    "price": 519,
+    "description": "Description for Product 23.",
+    "category": "Homeware",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "93cm",
+      "width": "78cm",
+      "depth": "56cm"
+    },
+    "available": true,
+    "stock": 14,
+    "rating": 4.0,
+    "reviews": 23,
+    "discount": 20,
+    "image": "https://dummyimage.com/437x426/eeeeee/333333&text=Product+23"
+  },
+  {
+    "id": "24",
+    "name": "Product 24",
+    "price": 473,
+    "description": "Description for Product 24.",
+    "category": "Homeware",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "91cm",
+      "width": "97cm",
+      "depth": "79cm"
+    },
+    "available": false,
+    "stock": 19,
+    "rating": 4.1,
+    "reviews": 18,
+    "discount": 20,
+    "image": "https://dummyimage.com/338x458/eeeeee/333333&text=Product+24"
+  },
+  {
+    "id": "25",
+    "name": "Product 25",
+    "price": 280,
+    "description": "Description for Product 25.",
+    "category": "Furniture",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "89cm",
+      "width": "66cm",
+      "depth": "24cm"
+    },
+    "available": false,
+    "stock": 13,
+    "rating": 5.0,
+    "reviews": 26,
+    "discount": 15,
+    "image": "https://dummyimage.com/334x496/eeeeee/333333&text=Product+25"
+  },
+  {
+    "id": "26",
+    "name": "Product 26",
+    "price": 902,
+    "description": "Description for Product 26.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "56cm",
+      "width": "39cm",
+      "depth": "18cm"
+    },
+    "available": false,
+    "stock": 13,
+    "rating": 3.0,
+    "reviews": 12,
+    "discount": 0,
+    "image": "https://dummyimage.com/498x460/eeeeee/333333&text=Product+26"
+  },
+  {
+    "id": "27",
+    "name": "Product 27",
+    "price": 278,
+    "description": "Description for Product 27.",
+    "category": "Furniture",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "112cm",
+      "width": "73cm",
+      "depth": "34cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 3.3,
+    "reviews": 193,
+    "discount": 0,
+    "image": "https://dummyimage.com/370x334/eeeeee/333333&text=Product+27"
+  },
+  {
+    "id": "28",
+    "name": "Product 28",
+    "price": 571,
+    "description": "Description for Product 28.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "30cm",
+      "width": "97cm",
+      "depth": "80cm"
+    },
+    "available": true,
+    "stock": 19,
+    "rating": 4.7,
+    "reviews": 74,
+    "discount": 15,
+    "image": "https://dummyimage.com/319x329/eeeeee/333333&text=Product+28"
+  },
+  {
+    "id": "29",
+    "name": "Product 29",
+    "price": 93,
+    "description": "Description for Product 29.",
+    "category": "Light fittings",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "69cm",
+      "width": "15cm",
+      "depth": "31cm"
+    },
+    "available": false,
+    "stock": 19,
+    "rating": 3.1,
+    "reviews": 115,
+    "discount": 20,
+    "image": "https://dummyimage.com/493x498/eeeeee/333333&text=Product+29"
+  },
+  {
+    "id": "30",
+    "name": "Product 30",
+    "price": 635,
+    "description": "Description for Product 30.",
+    "category": "Furniture",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "77cm",
+      "width": "55cm",
+      "depth": "52cm"
+    },
+    "available": true,
+    "stock": 14,
+    "rating": 3.5,
+    "reviews": 128,
+    "discount": 0,
+    "image": "https://dummyimage.com/390x495/eeeeee/333333&text=Product+30"
+  },
+  {
+    "id": "31",
+    "name": "Product 31",
+    "price": 490,
+    "description": "Description for Product 31.",
+    "category": "Furniture",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "37cm",
+      "width": "50cm",
+      "depth": "78cm"
+    },
+    "available": false,
+    "stock": 2,
+    "rating": 4.3,
+    "reviews": 30,
+    "discount": 15,
+    "image": "https://dummyimage.com/399x428/eeeeee/333333&text=Product+31"
+  },
+  {
+    "id": "32",
+    "name": "Product 32",
+    "price": 213,
+    "description": "Description for Product 32.",
+    "category": "Homeware",
+    "designer": "Thom Yorke",
+    "dimensions": {
+      "height": "108cm",
+      "width": "65cm",
+      "depth": "64cm"
+    },
+    "available": true,
+    "stock": 3,
+    "rating": 4.3,
+    "reviews": 136,
+    "discount": 20,
+    "image": "https://dummyimage.com/467x365/eeeeee/333333&text=Product+32"
+  },
+  {
+    "id": "33",
+    "name": "Product 33",
+    "price": 672,
+    "description": "Description for Product 33.",
+    "category": "Light fittings",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "111cm",
+      "width": "37cm",
+      "depth": "96cm"
+    },
+    "available": true,
+    "stock": 2,
+    "rating": 3.9,
+    "reviews": 197,
+    "discount": 20,
+    "image": "https://dummyimage.com/473x424/eeeeee/333333&text=Product+33"
+  },
+  {
+    "id": "34",
+    "name": "Product 34",
+    "price": 487,
+    "description": "Description for Product 34.",
+    "category": "Light fittings",
+    "designer": "Robert Smith",
+    "dimensions": {
+      "height": "61cm",
+      "width": "66cm",
+      "depth": "47cm"
+    },
+    "available": true,
+    "stock": 0,
+    "rating": 3.1,
+    "reviews": 79,
+    "discount": 0,
+    "image": "https://dummyimage.com/468x308/eeeeee/333333&text=Product+34"
+  },
+  {
+    "id": "35",
+    "name": "Product 35",
+    "price": 918,
+    "description": "Description for Product 35.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "58cm",
+      "width": "10cm",
+      "depth": "68cm"
+    },
+    "available": false,
+    "stock": 0,
+    "rating": 5.0,
+    "reviews": 1,
+    "discount": 15,
+    "image": "https://dummyimage.com/409x498/eeeeee/333333&text=Product+35"
+  },
+  {
+    "id": "36",
+    "name": "Product 36",
+    "price": 924,
+    "description": "Description for Product 36.",
+    "category": "Light fittings",
+    "designer": "Biggie Smalls",
+    "dimensions": {
+      "height": "30cm",
+      "width": "94cm",
+      "depth": "34cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 3.0,
+    "reviews": 153,
+    "discount": 15,
+    "image": "https://dummyimage.com/454x484/eeeeee/333333&text=Product+36"
+  },
+  {
+    "id": "37",
+    "name": "Product 37",
+    "price": 396,
+    "description": "Description for Product 37.",
+    "category": "Homeware",
+    "designer": "Liam Gallagher",
+    "dimensions": {
+      "height": "27cm",
+      "width": "100cm",
+      "depth": "11cm"
+    },
+    "available": false,
+    "stock": 14,
+    "rating": 3.2,
+    "reviews": 169,
+    "discount": 20,
+    "image": "https://dummyimage.com/476x457/eeeeee/333333&text=Product+37"
+  }
+]

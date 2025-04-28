@@ -1,65 +1,28 @@
 import styles from './styles.module.scss'
 import '../../asset/styles/global.scss'
-import Chair from '../../asset/image/chairRight.png'
-import ClayPottery from '../../asset/image/clayPottery.png'
-import Vase from '../../asset/image/vase.png'
-import Lamp from '../../asset/image/Lamp.png'
 import Button from "../../components/button";
+import products from "../../data/products.json";
+import Product from "../../components/product";
+import _ from "lodash";
 
-export default function NewCeramics() {
+export default function NewCeramics({OurProducts}) {
+
     return (
         <div className={styles.newCeramics}>
             <div className={styles.newCeramics__headline}>
                 New ceramics
             </div>
             <div className={styles.newCeramics__menu}>
-                <div className={styles.el}>
-                    <img className={styles.image} src={Chair} alt=""/>
-                    <div className={styles.info}>
-                        <div className={styles.title}>
-                            The Dandy chair
+                {products.slice(0, 7).map((product) => {
+                    return (
+                        <div className={styles.el}>
+                            <Product product={product}/>
                         </div>
-                        <div className={styles.price}>
-                            £250
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.el}>
-                    <img className={styles.image} src={ClayPottery} alt=""/>
-                    <div className={styles.info}>
-                        <div className={styles.title}>
-                            Rustic Vase Set
-                        </div>
-                        <div className={styles.price}>
-                            £155
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.el}>
-                    <img className={styles.image} src={Vase} alt=""/>
-                    <div className={styles.info}>
-                        <div className={styles.title}>
-                            The Silky Vase
-                        </div>
-                        <div className={styles.price}>
-                            £125
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.el}>
-                    <img className={styles.image} src={Lamp} alt=""/>
-                    <div className={styles.info}>
-                        <div className={styles.title}>
-                            The Lucy Lamp
-                        </div>
-                        <div className={styles.price}>
-                            £399
-                        </div>
-                    </div>
-                </div>
+                    )
+                })}
             </div>
             <div className={styles.button}>
-                <Button type={'feature'} >
+                <Button>
                     View collection
                 </Button>
             </div>

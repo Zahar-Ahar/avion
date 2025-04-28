@@ -24,13 +24,6 @@
       flex-direction: column;
       justify-content: left;
       gap: 16px;
-      transition: .3s;
-      cursor: pointer;
-
-      &:hover {
-        background-color: var.$background-color-second;
-        transform: scale(1.05);
-      }
 
       &__icon {
         width: 24px;

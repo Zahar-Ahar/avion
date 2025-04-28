@@ -3,6 +3,11 @@
   font-weight: 400;
 }
 
+@mixin body02 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 @mixin H1 {
   font-size: 36px;
   font-weight: 400;
